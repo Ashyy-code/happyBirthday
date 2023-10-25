@@ -2,7 +2,7 @@
     {
         "scene_index":1,
         "sceneType":"card",
-        "cardBg":"1_bg.png",
+        "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/1_bg.png",
         "cardTextImg":"1_text.png",
         "cardDesc":"{{ Greeting Scene number 1 }}",
         "team_img":null,
@@ -12,7 +12,7 @@
     {
         "scene_index":2,
         "sceneType":"card",
-        "cardBg":"2_bg.png",
+        "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/2_bg.png",
         "cardTextImg":"2_text.png",
         "cardDesc":"{{ Greeting Scene number 2 }}",
         "team_img":null,
@@ -25,7 +25,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"ayesha.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/ayesha.png",
         "team_text":"{{ Ayesha Message }}",
         "loaded":false
     },
@@ -35,7 +35,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"mark.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
         "team_text":"{{ Mark Message }}",
         "loaded":false
     },
@@ -45,7 +45,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"pete.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/pete.png",
         "team_text":"{{ Pete Message }}",
         "loaded":false
     },
@@ -55,7 +55,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"dave.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/dave.png",
         "team_text":"{{ Dave Message }}",
         "loaded":false
     },
@@ -65,7 +65,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"ash.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/ash.png",
         "team_text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit volutpat maecenas volutpat blandit. <br /><br /> Pretium quam vulputate dignissim suspendisse in est ante. Viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
         "loaded":false
     },
@@ -75,7 +75,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"mark.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
         "team_text":"{{ Another Team member Message }}",
         "loaded":false
     },
@@ -85,7 +85,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"mark.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
         "team_text":"{{ Another Team member Message }}",
         "loaded":false
     },
@@ -95,7 +95,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"mark.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
         "team_text":"{{ Another Team member Message }}",
         "loaded":false
     },
@@ -105,7 +105,7 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"mark.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
         "team_text":"{{ Another Team member Message }}",
         "loaded":false
     },
@@ -115,14 +115,14 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"mark.png",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
         "team_text":"{{ Another Team member Message }}",
         "loaded":false
     },
     {
         "scene_index":13,
         "sceneType":"card",
-        "cardBg":"3_bg.png",
+        "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_bg.png",
         "cardTextImg":"3_text.png",
         "cardDesc":"🎉🎉 We hope you have an <b>Awesome</b> Birthday! 🎉🎉",
         "team_img":null,

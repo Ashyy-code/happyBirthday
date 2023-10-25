@@ -1,7 +1,7 @@
 <template>
   <div v-if="!this.started" class="start">
     <div class="wrap">
-      <img src="./assets/images/intr.png" />
+      <img src="https://ashypls.com/endpoints/files/sarahBDAY/images/intr.png" />
       <h1>
         Hey Sarah! This year we decided to build you an interactive
         Birthday Card :D
@@ -31,16 +31,11 @@ import scenesData from "./assets/scenes.json";
 import JSConfetti from "js-confetti";
 import polaroid from "./components/polaroid.vue";
 
-import woot from "./assets/audio/woot.mp3";
-import happy from "./assets/audio/happy.mp3";
-import pageBG from "./assets/images/page_bg.png";
-
 
 export default {
   components: { polaroid },
   mounted() {
     this.currentScene = this.scenes[0];
-    document.querySelector("#app").style.backgroundImage = "url('" + pageBG + "')";
   },
   data() {
     return {
@@ -75,9 +70,9 @@ export default {
       const jsConfetti = new JSConfetti();
       jsConfetti.addConfetti();
       this.scenes[0].loaded = true;
-      var audio = new Audio(woot);
+      var audio = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/woot.mp3");
       audio.play();
-      var audio2 = new Audio(happy);
+      var audio2 = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/happy.mp3");
       audio2.play();
     },
   },
