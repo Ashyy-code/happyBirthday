@@ -6,7 +6,7 @@
         Hey Sarah! This year we decided to build you an interactive
         Birthday Card :D
       </h1>
-      <button @click="startView()">ok.. sure.. let's see it!</button>
+      <button @click="startView()" @mouseenter="audio_pop.play()">ok.. sure.. let's see it!</button>
     </div>
   </div>
 
@@ -15,6 +15,13 @@
     class="scroller animate__animated animate__fadeIn"
     id="scroller"
   >
+
+  <button @click="toggleMusic()" class="muter">
+    <i v-if="!bgSound" class="las la-volume-mute"></i>
+    <i v-if="bgSound" class="las la-volume-up"></i>
+  </button>
+
+
     <polaroid
       v-for="scene in scenes"
       :key="scene.scene_index"
@@ -24,6 +31,8 @@
       :sceneCount="scenes.length"
     />
   </div>
+
+  
 </template>
 
 <script>
@@ -42,6 +51,9 @@ export default {
       scenes: scenesData,
       started: false,
       currentScene: null,
+      audio2: new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/happy.mp3"),
+      audio_pop: new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/pop.mp3"),
+      bgSound:true,
     };
   },
   methods: {
@@ -49,6 +61,12 @@ export default {
       //exiter
       if (scene.scene_index == this.scenes.length) {
         return;
+      }
+
+      //final boop sounds
+      if (scene.scene_index == this.scenes.length - 1){
+        var audio = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/woot.mp3");
+        audio.play();
       }
 
       //scroll enabled
@@ -62,8 +80,17 @@ export default {
         this.scenes[nextScene - 1].loaded = true;
         const jsConfetti = new JSConfetti();
         jsConfetti.addConfetti();
+        //new audio
+
+        var audio = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/pop.mp3");
+        audio.play();
+
       }, 300);
       blue.scrollIntoView();
+    },
+    toggleMusic(){
+      this.audio2.muted = !this.audio2.muted;
+      this.bgSound = !this.bgSound;
     },
     startView() {
       this.started = true;
@@ -72,8 +99,8 @@ export default {
       this.scenes[0].loaded = true;
       var audio = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/woot.mp3");
       audio.play();
-      var audio2 = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/happy.mp3");
-      audio2.play();
+      //var audio2 = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/happy.mp3");
+      this.audio2.play();
     },
   },
 };
@@ -155,5 +182,28 @@ export default {
 }
 .scollenable {
   overflow-y: auto;
+}
+
+.muter{
+  position: fixed;
+  top:1rem;
+  left:1rem;
+  border:0;
+  background: #00000076;
+  color:white;
+  border-radius: 50%;
+  aspect-ratio: 1;
+
+  
+  cursor: pointer;
+
+  @media screen and (max-width:600px) {
+    top:0.25rem;
+    left:0.25rem;
+  }
+
+  i{
+    font-size: 300%;
+  }
 }
 </style>
