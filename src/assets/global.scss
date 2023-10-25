@@ -1,0 +1,29 @@
+/*Font Importers*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Root Vars*/
+:root{
+    
+}
+
+/*Body Main*/
+body,html,#app{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#app{
+    width:100vw;
+    height:100vh;
+    background:url(images/page_bg.png);
+    background-size:cover;
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
