@@ -6,7 +6,7 @@
         Hey Sarah! This year we decided to build you an interactive
         Birthday Card :D
       </h1>
-      <button @click="startView()" @mouseenter="audio_pop.play()">ok.. sure.. let's see it!</button>
+      <button @click="startView()">ok.. sure.. let's see it!</button>
     </div>
   </div>
 
