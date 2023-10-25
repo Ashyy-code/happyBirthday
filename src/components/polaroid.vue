@@ -2,11 +2,11 @@
   <div class="polaroid-wrap">
     <div class="polaroid">
       <div v-if="currentScene.sceneType == 'card'" class="bg-img">
-        <img loading="lazy" :src="'images/' + currentScene.cardBg"   class="animate__animated animate__fadeIn" />
-        <img loading="lazy" txt :src="'images/' + currentScene.cardTextImg"  v-if="currentScene.loaded" class="animate__animated animate__slideInUp animate__slower" />
+        <img loading="lazy" :src=getPic(currentScene.cardBg)   class="animate__animated animate__fadeIn" />
+        <img loading="lazy" txt :src=getPic(currentScene.cardTextImg)  v-if="currentScene.loaded" class="animate__animated animate__slideInUp animate__slower" />
       </div>
       <div v-if="currentScene.sceneType == 'team'" class="team-img">
-        <img loading="lazy" :src="'images/' + currentScene.team_img" class="animate__animated animate__pulse animate__slower animate__infinite" />
+        <img loading="lazy" :src=getPic(currentScene.team_img) class="animate__animated animate__pulse animate__slower animate__infinite" />
         <h3 v-html="currentScene.team_text"></h3>
       </div>
 
@@ -31,8 +31,15 @@
 </template>
 
 <script>
+
+
 export default {
   props: ["currentScene","sceneCount"],
+  methods: {
+    getPic (name) {
+      return new URL('../assets/images/' + name, import.meta.url)
+    }
+  }
 };
 </script>
 
