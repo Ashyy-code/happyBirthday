@@ -124,7 +124,7 @@ export default {
   margin: 0 auto;
 
   .wrap {
-    background: rgba(255, 255, 255, 0.847);
+    background: rgba(255, 249, 227, 0.847);
     border-radius: 1rem;
     padding: 2rem;
     transition: all 200ms ease;
