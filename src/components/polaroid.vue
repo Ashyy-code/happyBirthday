@@ -133,7 +133,7 @@ export default {
 .next{
   display:grid;
   place-items: center;
-  font-size:120%;
+  font-size:90%;
   color:#2f75a9;
 
 
