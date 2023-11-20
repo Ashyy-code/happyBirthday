@@ -162,7 +162,7 @@ export default {
   }
 
   h3{
-    font-size:160%;
+    font-size:130%;
     font-weight: normal;
     padding:0;
     margin:0;
