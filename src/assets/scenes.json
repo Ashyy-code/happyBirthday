@@ -4,7 +4,7 @@
         "sceneType":"card",
         "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/1_bg.png",
         "cardTextImg":"https://ashypls.com/endpoints/files/sarahBDAY/images/1_text.png",
-        "cardDesc":"{{ Greeting Scene number 1 }}",
+        "cardDesc":"Sarah! We hope you have a fantastic birthday!",
         "team_img":null,
         "team_text":null,
         "loaded":false
@@ -14,7 +14,7 @@
         "sceneType":"card",
         "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/2_bg.png",
         "cardTextImg":"https://ashypls.com/endpoints/files/sarahBDAY/images/2_text.png",
-        "cardDesc":"{{ Greeting Scene number 2 }}",
+        "cardDesc":"We each have a birthday message for you so... lets go around the screen!.. Starting with..",
         "team_img":null,
         "team_text":null,
         "loaded":false
