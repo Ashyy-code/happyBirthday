@@ -36,7 +36,7 @@
         "cardTextImg":null,
         "cardDesc":null,
         "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
-        "team_text":"{{ Mark Message }}",
+        "team_text":"Happy 50th birthday Sarah. Hoping you have a fabulous day, filled with family, friends and cake! <br /><br /> - Mark",
         "loaded":false
     },
     {
@@ -95,8 +95,8 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
-        "team_text":"{{ Another Team member Message }}",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/jos.png",
+        "team_text":"{{ Message from Jos }}",
         "loaded":false
     },
     {
@@ -105,8 +105,8 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
-        "team_text":"{{ Another Team member Message }}",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/blake.png",
+        "team_text":"{{ Message from Blake }}",
         "loaded":false
     },
     {
@@ -115,12 +115,52 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mark.png",
-        "team_text":"{{ Another Team member Message }}",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/nicola.png",
+        "team_text":"{{ Message from Nicola }}",
         "loaded":false
     },
     {
         "scene_index":13,
+        "sceneType":"team",
+        "cardBg":null,
+        "cardTextImg":null,
+        "cardDesc":null,
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/lee.png",
+        "team_text":"{{ Message from Lee }}",
+        "loaded":false
+    },
+    {
+        "scene_index":14,
+        "sceneType":"team",
+        "cardBg":null,
+        "cardTextImg":null,
+        "cardDesc":null,
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mike.png",
+        "team_text":"{{ Message from Mike  }}",
+        "loaded":false
+    },
+    {
+        "scene_index":15,
+        "sceneType":"team",
+        "cardBg":null,
+        "cardTextImg":null,
+        "cardDesc":null,
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/girish.png",
+        "team_text":"{{ Message from Girish }}",
+        "loaded":false
+    },
+    {
+        "scene_index":16,
+        "sceneType":"team",
+        "cardBg":null,
+        "cardTextImg":null,
+        "cardDesc":null,
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/rich.png",
+        "team_text":"{{ Message from Rich }}",
+        "loaded":false
+    },
+    {
+        "scene_index":17,
         "sceneType":"card",
         "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_bg.png",
         "cardTextImg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_text.png",
