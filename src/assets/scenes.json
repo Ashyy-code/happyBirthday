@@ -4,7 +4,7 @@
         "sceneType":"card",
         "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/1_bg.png",
         "cardTextImg":"https://ashypls.com/endpoints/files/sarahBDAY/images/1_text.png",
-        "cardDesc":"Sarah! We hope you have a fantastic birthday!",
+        "cardDesc":"Sarah! Everyone wanted to wish you a VERY HAPPY birthday!",
         "team_img":null,
         "team_text":null,
         "loaded":false
@@ -66,7 +66,7 @@
         "cardTextImg":null,
         "cardDesc":null,
         "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/ash.png",
-        "team_text":"Sarah! HAPPY BIRTHDAY!! :D <br /><br /> I hope you have an amazing Birthday you REALLY deserve it!!!<br /><br /> I would tell you to drink lots but I know you will be partying harder than I could anyway :D <br /><br />- Ash xx",
+        "team_text":"Sarah! HAPPY BIRTHDAY!! :D <br /><br /> I hope you have an amazing Birthday you really deserve it!!!<br /><br /> I would tell you to drink lots but I know you will be partying harder than I could anyway :D <br /><br />- Ash xx",
         "loaded":false
     },
     {
@@ -96,7 +96,7 @@
         "cardTextImg":null,
         "cardDesc":null,
         "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/jos.png",
-        "team_text":"{{ Message from Jos }}",
+        "team_text":"Harding!  Wishing you a very happy birthday and hope you have a wonderful day involving friends, several different types of alcohol, cake (if you swing that way!), a large number of tasty comestibles, and a free overnight stay at the police station to round things off nicely!! <br /><br /> It’s your birthday, you deserve it! <br /><br /> Lotsa love, Jos x.",
         "loaded":false
     },
     {
@@ -164,7 +164,7 @@
         "sceneType":"card",
         "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_bg.png",
         "cardTextImg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_text.png",
-        "cardDesc":"🎉🎉 We hope you have an <b>Awesome</b> Birthday! 🎉🎉",
+        "cardDesc":"🎉🎉 We All hope you have an <b>Awesome</b> Birthday! xx 🎉🎉",
         "team_img":null,
         "team_text":null,
         "loaded":false
