@@ -66,7 +66,7 @@
         "cardTextImg":null,
         "cardDesc":null,
         "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/ash.png",
-        "team_text":"Sarah! HAPPY BIRTHDAY!! :D <br /><br /> I hope you have an amazing Birthday you really deserve it!!!<br /><br /> I would tell you to drink lots but I know you will be partying harder than I could anyway :D <br /><br />- Ash xx",
+        "team_text":"Sarah! HAPPY BIRTHDAY!! :D <br /><br /> I hope you have an amazing Birthday you really deserve it!!!<br /><br /> I would tell you to drink lots but I know you will be partying harder than I could anyway :D <br /><br />- Love from Ash, Erin and Brax xx",
         "loaded":false
     },
     {
@@ -115,8 +115,8 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/nicola.png",
-        "team_text":"{{ Message from Nicola }}",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/jon.png",
+        "team_text":"Hi Sarah<br /><br />Hope being 50 proves to be everything it’s cracked up to be. Many happy returns and best wishes. <br /> <br />Jon Hallam",
         "loaded":false
     },
     {
@@ -125,45 +125,25 @@
         "cardBg":null,
         "cardTextImg":null,
         "cardDesc":null,
-        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/lee.png",
-        "team_text":"{{ Message from Lee }}",
+        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/girish.png",
+        "team_text":"Happy 50th Birthday Sarah, Hope you have a fantastic day celebrating with lots of joy and happiness.  <br /><br /> -- Girish",
         "loaded":false
     },
     {
         "scene_index":14,
-        "sceneType":"team",
-        "cardBg":null,
-        "cardTextImg":null,
-        "cardDesc":null,
-        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/mike.png",
-        "team_text":"{{ Message from Mike  }}",
+        "sceneType":"card",
+        "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_bg.png",
+        "cardTextImg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_text.png",
+        "cardDesc":"🎉🎉 We All hope you have an <b>Awesome</b> Birthday! xx 🎉🎉",
+        "team_img":null,
+        "team_text":null,
         "loaded":false
     },
     {
         "scene_index":15,
-        "sceneType":"team",
-        "cardBg":null,
-        "cardTextImg":null,
-        "cardDesc":null,
-        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/girish.png",
-        "team_text":"{{ Message from Girish }}",
-        "loaded":false
-    },
-    {
-        "scene_index":16,
-        "sceneType":"team",
-        "cardBg":null,
-        "cardTextImg":null,
-        "cardDesc":null,
-        "team_img":"https://ashypls.com/endpoints/files/sarahBDAY/images/rich.png",
-        "team_text":"{{ Message from Rich }}",
-        "loaded":false
-    },
-    {
-        "scene_index":17,
         "sceneType":"card",
-        "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_bg.png",
-        "cardTextImg":"https://ashypls.com/endpoints/files/sarahBDAY/images/3_text.png",
+        "cardBg":"https://ashypls.com/endpoints/files/sarahBDAY/images/4_bg.png",
+        "cardTextImg":"https://ashypls.com/endpoints/files/sarahBDAY/images/4_text.png",
         "cardDesc":"🎉🎉 We All hope you have an <b>Awesome</b> Birthday! xx 🎉🎉",
         "team_img":null,
         "team_text":null,
