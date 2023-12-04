@@ -54,8 +54,7 @@ export default {
       audio2: new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/happy.mp3"),
       audio_pop: new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/pop.mp3"),
       bgSound:true,
-      gClink:'https://www.amazon.co.uk/gp/r.html?C=SVULMK1YZBEX&M=urn:rtn:msg:20231204164001c354ec8b63b249f0a3ddb27e9060p0eu&R=G6DB7KEOOUZP&T=C&U=https%3A%2F%2Fwww.amazon.co.uk%2Fg%2FRQACKBUN2YAM8Q%3Fref_%3Dpe_3434961_257669011&H=P4NWBMQY4GZZLL6YI3IAASGIOJYA&ref_=pe_3434961_257669011'
-    };
+      };
   },
   methods: {
     gotoNextScene(scene) {
