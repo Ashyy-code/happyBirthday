@@ -1,7 +1,7 @@
 <template>
   <div v-if="!this.started" class="start">
     <div class="wrap">
-      <img src="https://ashypls.com/endpoints/files/sarahBDAY/images/intr.png" />
+      <img src="https://ashydata.000webhostapp.com/images/intr.png" />
       <h1>
         Hey Sarah! This year we decided to build you an interactive
         Birthday Card :D
@@ -51,8 +51,8 @@ export default {
       scenes: scenesData,
       started: false,
       currentScene: null,
-      audio2: new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/happy.mp3"),
-      audio_pop: new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/pop.mp3"),
+      audio2: new Audio("https://ashydata.000webhostapp.com/audio/happy.mp3"),
+      audio_pop: new Audio("https://ashydata.000webhostapp.com/audio/pop.mp3"),
       bgSound:true,
       };
   },
@@ -65,7 +65,7 @@ export default {
 
       //final boop sounds
       if (scene.scene_index == this.scenes.length - 1){
-        var audio = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/woot.mp3");
+        var audio = new Audio("https://ashydata.000webhostapp.com/audio/woot.mp3");
         audio.play();
       }
 
@@ -82,7 +82,7 @@ export default {
         jsConfetti.addConfetti();
         //new audio
 
-        var audio = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/pop.mp3");
+        var audio = new Audio("https://ashydata.000webhostapp.com/audio/pop.mp3");
         audio.play();
 
       }, 300);
@@ -97,7 +97,7 @@ export default {
       const jsConfetti = new JSConfetti();
       jsConfetti.addConfetti();
       this.scenes[0].loaded = true;
-      var audio = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/woot.mp3");
+      var audio = new Audio("https://ashydata.000webhostapp.com/audio/woot.mp3");
       audio.play();
       //var audio2 = new Audio("https://ashypls.com/endpoints/files/sarahBDAY/audio/happy.mp3");
       this.audio2.play();
