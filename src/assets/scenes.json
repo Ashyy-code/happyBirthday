@@ -131,6 +131,16 @@
     },
     {
         "scene_index":14,
+        "sceneType":"team",
+        "cardBg":null,
+        "cardTextImg":null,
+        "cardDesc":null,
+        "team_img":"https://ashydata.000webhostapp.com/images/rich.png",
+        "team_text":"Merry Birthday Sarah, thanks for all your amazing creativity, understanding and patience. <br /><br /> You always seem to be able to work with your team to turn sometimes wacky ideas into something actually useful and deliverable by your team. <br /><br /> Have a great birthday - Rich",
+        "loaded":false
+    },
+    {
+        "scene_index":15,
         "sceneType":"card",
         "cardBg":"https://ashydata.000webhostapp.com/images/3_bg.png",
         "cardTextImg":"https://ashydata.000webhostapp.com/images/3_text.png",
